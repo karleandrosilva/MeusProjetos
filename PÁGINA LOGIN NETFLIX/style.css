@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(imagens/background.jpg);
+    background-repeat: no-repeat; /*Isso significa que a imagem de fundo será exibida apenas uma vez*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**/
+
+body::before {  /* pseudo-classe para criar um elemento antes do conteúdo real do corpo */
+    content: '';  /*conteúdo vazio*/
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    /*Define a largura e altura do pseudo-elemento como 100%, cobrindo assim toda a largura e altura da janela do navegador ou do contêiner pai.*/
+    position: absolute; /*Define a posição do pseudo-elemento como absoluta. Isso significa que ele será posicionado em relação ao seu ancestral mais próximo.*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    /*top, bottom, left, right: 0 = usadas para esticar o pseudo-elemento sobre toda a área do elemento <body>.*/
+}
+
+.logo img {
+    height: 55px;
+    width: 160px;
+    padding: 5px 20px;
+    position: relative;
+    z-index: 10; /* Este elemento estará acima de outros elementos com z-index menor */
+}
+
+main {
+    padding: 70px;
+    /* z-index: 90; */
+    position: relative;
+    
+    max-width: 450px;
+    height: 550px;
+    margin-left: 50%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+main h1 {
+    color: white;
+    margin-top: 0;
+}
+
+main input{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+main input:hover{
+    background-color: #444;
+}
+
+main button {
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: #e50914;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+main button:hover{
+    background-color: #fa1621;
+    cursor: pointer;
+}
