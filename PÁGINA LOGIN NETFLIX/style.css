@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
 body {
-    
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
     background-image: url(imagens/background.jpg);
-    background-image: cover;
-    background-repeat: no-repeat; /*Isso significa que a imagem de fundo será exibida apenas uma vez*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat; /*Isso significa que a imagem de fundo será preechida*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,16 +31,15 @@ body::before {  /* pseudo-classe para criar um elemento antes do conteúdo real 
 .logo img {
     height: 55px;
     width: 160px;
-    padding: 5px 20px;
+    padding: 20px 30px;
     position: relative;
     z-index: 10; /* Este elemento estará acima de outros elementos com z-index menor */
 }
 
 main {
-    padding: 70px;
+    padding: 60px;
     z-index: 90; 
     position: relative;
-
     max-width: 470px;
     height: 550px;
     margin-left: 50%;
