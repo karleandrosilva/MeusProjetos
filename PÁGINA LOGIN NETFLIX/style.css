@@ -12,8 +12,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/**/
-
 body::before {  /* pseudo-classe para criar um elemento antes do conteúdo real do corpo */
     content: '';  /*conteúdo vazio*/
     background-color: rgba(0, 0, 0, 0.5);
