@@ -1,7 +1,11 @@
 /**/
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Noto+Sans:wght@400;700&family=Oxanium:wght@300;400;700&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 body {
     margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 main {
@@ -23,7 +27,12 @@ main {
 }
 
 .left h1 {
+    font-size: 3vw;
     color: #77ffc0;
+}
+
+.left img {
+    width: 31vw;
 }
 
 .right {
@@ -53,10 +62,12 @@ main {
 }
 
 .textfield {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin: 10px ;
 }
 
 .textfield input {
@@ -64,10 +75,35 @@ main {
     border: none;
     border-radius: 16px;
     padding: 15px;
-    background: #514869;
+    background-color: #514869;
     color: #f0ffffde;
     font-size: 12pt;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.632);
     outline: none;
     box-sizing: border-box;
+}
+
+.textfield label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield input::placeholder {
+    color: #f0ffff94;
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background-color: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 1px 40px -12px #00ff8052;
 }
