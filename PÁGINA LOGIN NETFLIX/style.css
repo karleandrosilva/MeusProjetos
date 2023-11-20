@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 body {
+    
     background-image: url(imagens/background.jpg);
+    background-image: cover;
     background-repeat: no-repeat; /*Isso significa que a imagem de fundo será exibida apenas uma vez*/
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -32,10 +34,10 @@ body::before {  /* pseudo-classe para criar um elemento antes do conteúdo real 
 
 main {
     padding: 70px;
-    /* z-index: 90; */
+    z-index: 90; 
     position: relative;
-    
-    max-width: 450px;
+
+    max-width: 470px;
     height: 550px;
     margin-left: 50%;
     background-color: rgba(0, 0, 0, 0.75);
@@ -49,7 +51,7 @@ main h1 {
     margin-top: 0;
 }
 
-main input{
+main input {
     height: 50px;
     width: 100%;
     color: #fff;
@@ -62,7 +64,7 @@ main input{
     margin-bottom: 25px;
 }
 
-main input:hover{
+main input:hover {
     background-color: #444;
 }
 
@@ -78,7 +80,85 @@ main button {
     margin-bottom: 10px;
 }
 
-main button:hover{
+main button:hover {
     background-color: #fa1621;
     cursor: pointer;
+}
+
+.support {
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.support input {
+    width: 15px;
+    height: 15px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember span {
+    margin-right: 5px;
+    height: 25px;
+}
+
+.help a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.help a:hover {
+    text-decoration: underline;
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+}
+
+.facebook span {
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.facebook span a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.sign_up {
+    color: #737373;
+    font-size: 16px;
+}
+
+.sign_up a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.sign_up a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    color: #737373;
+    font-size: 13px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #0071eb;
+}
+
+.terms a:hover {
+    text-decoration: underline;
 }
