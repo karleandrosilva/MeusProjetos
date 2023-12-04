@@ -5,8 +5,6 @@
 body {
     padding: 0;
     margin: 0;
-    
-
 }
 
 header {
@@ -37,22 +35,60 @@ header h2 {
 main {
     font-family: Arial, sans-serif;
     font-size: medium;
-    background-color: white;
+
+    /* background-color: white;
     padding: 25px;
     border-radius: 10px;
     min-width: 280px;
-    max-width: 800px;
+    max-width: 800px; */
 }
 
 main h3 {
-    font-size: 35px;
-    
+    font-size: 7vh;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 main p {
-    font-size: 17px;
+    font-size: 4vh;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
+article img {
+    height: 500px;
+    display: block;
+    align-items: center;
+    margin: auto;
+    border-radius: 40px 0px;
+    
+}
+
+/* article {
+    display: flex;
+    align-items: center;
+    
+} */
+
+
+@media only screen and (max-width: 750px) {
+    main {
+        flex-direction: column;
+    }
+
+    main h3 {
+        font-size: 40px;
+    }
+
+    article img {
+    height: 30vh;
+    display: block;
+    margin: auto;
+    border-radius: 40px 0px;
+    }
+
+}
 
 /* #saam img {
     display: block;
