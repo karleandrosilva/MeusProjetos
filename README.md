@@ -1,8 +1,8 @@
 # MeusProjetos
 
-Card: https://karleandrosilva.github.io/MeusProjetos/CARD/
+Card: https://karleandrosilva.github.io/MeusProjetos/card
 
-Página Login Netflix: https://karleandrosilva.github.io/MeusProjetos/pagina_login_netflix/
+Página Login Netflix: https://karleandrosilva.github.io/MeusProjetos/pagina_login_netflix
 
 Portfólio: https://karleandrosilva.github.io/MeusProjetos/portfolio/index1.html
 
