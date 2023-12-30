@@ -10,7 +10,7 @@ Este foi o meu segundo projeto, no qual desenvolvi cartões de frutas que inclu�
 
 Visualise: https://karleandrosilva.github.io/MeusProjetos/CARD
 <div>
-  <img src="imagens/projetoCard.png" width="800px">
+  <img src="readme/imagens/projetoCard.png" width="800px">
 </div>
 
 * [Repositório com o código](https://github.com/karleandrosilva/MeusProjetos/tree/main/CARD)
@@ -26,5 +26,6 @@ Página Login Netflix: https://karleandrosilva.github.io/MeusProjetos/pagina_log
 Tela Login: https://karleandrosilva.github.io/MeusProjetos/tela_login_dark
 * [Link do Tutorial](https://youtu.be/69-WfrVBli8?si=r_KQtNxIulefKJkR)
 
+## 5. Projeto Card Carrossel de Natal
 
 
