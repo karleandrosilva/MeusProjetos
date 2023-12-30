@@ -21,13 +21,13 @@ body {
     align-items: center;
 }
 
-.container {
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    width: 400px;
+    width: 450px;
     height: 600px;
     padding: 32px;
     border-radius: 32px;
