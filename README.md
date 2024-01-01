@@ -18,15 +18,18 @@ Visualise: https://karleandrosilva.github.io/MeusProjetos/CARD
 * [Repositório do Tricotando](https://github.com/tricodando/card-html-css)
 
 ## 3. Projeto Login Netflix
+Este foi meu terceiro projeto
 
 Página Login Netflix: https://karleandrosilva.github.io/MeusProjetos/pagina_login_netflix
 
 ## 4. Projeto Tela Login
+Este foi meu quarto projeto
 
 Tela Login: https://karleandrosilva.github.io/MeusProjetos/tela_login_dark
 * [Link do Tutorial](https://youtu.be/69-WfrVBli8?si=r_KQtNxIulefKJkR)
 
-## 5. Projeto Card Carrossel de Natal!
+## 5. Projeto Card Carrossel de Natal
+Este foi meu quinto projeto
 
 Visualise: https://karleandrosilva.github.io/MeusProjetos/carrossel
 
