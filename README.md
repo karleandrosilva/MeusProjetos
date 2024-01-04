@@ -22,7 +22,7 @@ Este foi meu terceiro projeto
 
 Página Login Netflix: https://karleandrosilva.github.io/MeusProjetos/pagina_login_netflix
 
-## 4. Projeto Tela Login
+## 4. Projeto Tela Login Dark
 Este foi meu quarto projeto
 
 Tela Login: https://karleandrosilva.github.io/MeusProjetos/tela_login_dark
@@ -33,3 +33,6 @@ Este foi meu quinto projeto
 
 Visualise: https://karleandrosilva.github.io/MeusProjetos/carrossel
 
+## 6. Projeto Tela Login light
+
+Tela Login Theme light: https://karleandrosilva.github.io/MeusProjetos/tela_login_light
