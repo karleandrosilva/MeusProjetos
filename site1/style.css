@@ -1,180 +1,123 @@
-/*****************************/
-/*    [1] Estilos gerais
-/*****************************/
-
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
 }
-
-
-img{
-	max-width: 100%;
-	display: block;
-}
-
-/*****************************/
-/*    [2]      Menu
-/*****************************/
 
 header {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
 }
 
-.container__menu {
-    background-color: aqua;
-    /* max-width: 1500px; */
-    /* margin: 0 auto; */
-}
-
-.menu {
+.nav-bar {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    max-width: 1500px;
-    margin: 0 auto;
-    /* flex-wrap: wrap; */
+    padding: 1.5rem 6rem;
 }
 
-.menu__logo {
-    margin: 10px;
-}
-
-.nav__list {
-    display: flex;
-    list-style-type: none;
-    text-align: center;
-    /* flex-wrap: wrap; */
-    /* cursor: pointer; */
-}
-
-
-.nav__link {
-    color: #000;
-    text-decoration: none;
-    padding: 0 40px;
-    display: inline-block;
-    /* padding: 20px 10px; */
-    /* transition: .2s; */
-}
-
-li {
+.logo {
     display: flex;
     align-items: center;
 }
 
-.nav__link:hover {
-    color: #808080;
-    transform: scale(1.05);
-}
-
-.nav-contato button {
-    margin: 10px;
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
+.logo h1 {
     color: #fff;
-    background-color: #000;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    /* transition: .5s; */
 }
 
-.nav-contato button:hover {
-    box-shadow: 0px 0px 8px #808080;
-    transform: scale(1.05);
+.nav-list {
+    display: flex;
+    align-items: center;
 }
 
-.menu__mobile, .menu__logo2 {
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button {
+    
+    align-items: center;
+}
+
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    
+}
+
+.mobile-menu-icon {
     display: none;
 }
 
-/* .menu-desktop nav ul li {
-    display: inline-block;
-} */
-
-/*****************************/
-/*    [3]      Conteúdo
-/*****************************/
-
-.cabecalho {
-    /* width: 100vw;
-    height: 100vh; */
-    
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-evenly;
-    /* justify-content: space-around; */
-    max-width: 1700px;
-    margin: 0 auto;
-    background-color: bisque;
+.mobile-menu {
+    display: none;
 }
 
-.cabecalho .imagem {
-    /* background-color: bisque; */
-
-    /* pra ficar imagem pequena */
-    width: 50vw;
-    height: auto;
-    
-    /* max-width: 70%;
-    height: auto; */
-}
-
-.texto__nome {
-    font-size: 9vw;
-    margin-top: 10vw;
-    margin-left: 9vw;
-}
-
-#texto__frase {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 1.5vw;
-    margin-top: 150px;
-    margin-left: 50px;
-}
-
-
-
-@media only screen and (max-width: 730px) {
-
-    /* .container__menu {
-        position: relative;
-        z-index: 1;
-        background-color: brown;
-    } */
-
-    .menu {
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
         display: none;
-        /* position: relative;
-        z-index: 2;
-        background-color: brown; */
     }
-
-    .menu__logo2 {
-        display: inline;
-        height: 10px;
+    .login-button {
+        display: none;
     }
-
-    .menu__mobile {
-        /* z-index: 2;
-        position: relative; */
-        background-color: blue;
-        top: 0;
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: #0187a7;
+    }
+    .mobile-menu ul {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        /* max-width: 1500px; */
-        margin: 0 auto;
-        
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
     }
-
-    .menu__logo2 {
-        margin: 10px;
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
     }
 }
+
+
+/*** FEITO POR: LARISSA V. KICH ***/

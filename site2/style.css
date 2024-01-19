@@ -2,11 +2,13 @@
 /*    [1] Estilos gerais
 /*****************************/
 
-*,
+/* *,
 *::before,
 *::after {
-	/* box-sizing: border-box; */
-}
+	box-sizing: border-box;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 
 img {
 	max-width: 100%;
@@ -19,6 +21,7 @@ img {
 
 body {
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -46,20 +49,22 @@ header {
     align-items: center;
 }
 
-.nav__list {
+.nav__list2 ul{
     display: flex;
     list-style-type: none;
     text-align: center;
+    justify-content: right;
+   
     /* flex-wrap: wrap; */
     /* cursor: pointer; */
 }
 
-.nav__list li {
+.nav__list2 li {
     display: flex;
     align-items: center;
 }
 
-.nav__link {
+.nav__link2  {
     color: #000;
     text-decoration: none;
     padding: 0 40px;
@@ -68,7 +73,7 @@ header {
     /* transition: .2s; */
 }
 
-.nav__link:hover {
+.nav__link2:hover {
     color: #808080;
     transform: scale(1.05);
 }
@@ -95,7 +100,7 @@ header {
     display: none;
 }
 
-.nav_mobile {
+.nav__mobile {
     display: none;
 }
 
@@ -113,7 +118,7 @@ header {
     /* justify-content: space-around; */
     max-width: 1700px;
     margin: 0 auto;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .cabecalho .imagem {
@@ -131,8 +136,14 @@ header {
     font-size: 9vw;
     margin-top: 10vw;
     margin-left: 9vw;
+    margin-bottom: 5vw;
 }
 
+
+#texto__frase {
+    font-size: 2vw;
+    margin-left: 9vw;
+}
 
 
 
@@ -160,7 +171,7 @@ header {
         height: 70px;
     }
 
-    .nav__link {
+    .nav__list2 {
         display: none;
     }
 
@@ -180,27 +191,59 @@ header {
         cursor: pointer;
     }
 
-    .nav__icon ul {
+    .nav__mobile ul {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        padding-left: 0;
     }
 
-    .nav__icon .nav__link {
+    .nav__mobile .nav__link {
+        color: #000;
+        text-decoration: none;
+    }
+
+
+    .nav__mobile .nav__item {
         display: block;
         padding-top: 1.2rem;
     }
 
-    .nav__icon .nav__contato {
-        display: block;
-        padding: 1rem 2rem;
+    .nav__link:hover {
+        color: #808080;
+        font-size: 22px;
+        transform: scale(1.05);
     }
 
-    .nav__icon .nav__contato .nav {
+    .nav__mobile .nav__contato {
         display: block;
-        padding: 1rem 2rem;
+        text-align: center;
     }
+
+    .open {
+        display: block;
+    }
+    
+    .texto__nome {
+        font-size: 20vw;
+        margin-top: 1vw;
+        margin-left: 15vw;
+        margin-bottom: 0px;
+        padding-top: 50px;
+    }
+
+    #texto__frase {
+        display: none;
+    }
+
+    .cabecalho .imagem {
+        margin-left: 8vh;
+        width: 80vw;
+        height: auto;
+    }
+
+
 
 
     
