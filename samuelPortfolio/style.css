@@ -7,9 +7,9 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
    height: 100vh; 
-}
+} */
 
 .interface {
     max-width: 1900px;
@@ -304,6 +304,7 @@ header .btn-contato button:hover {
     }
 
     .container-3 {
+        display: none;
         margin-top: 120px;
         height: 420px;
     }
@@ -311,6 +312,10 @@ header .btn-contato button:hover {
     .carousel {
         width: 280px;
         height: 280px;
+    }
+
+    .interface {
+        display: none;
     }
 
     

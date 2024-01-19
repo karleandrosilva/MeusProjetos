@@ -1,0 +1,180 @@
+/*****************************/
+/*    [1] Estilos gerais
+/*****************************/
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+/*****************************/
+/*    [2]      Menu
+/*****************************/
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container__menu {
+    background-color: aqua;
+    /* max-width: 1500px; */
+    /* margin: 0 auto; */
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+}
+
+.menu__logo {
+    margin: 10px;
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    /* flex-wrap: wrap; */
+    /* cursor: pointer; */
+}
+
+
+.nav__link {
+    color: #000;
+    text-decoration: none;
+    padding: 0 40px;
+    display: inline-block;
+    /* padding: 20px 10px; */
+    /* transition: .2s; */
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link:hover {
+    color: #808080;
+    transform: scale(1.05);
+}
+
+.nav-contato button {
+    margin: 10px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    /* transition: .5s; */
+}
+
+.nav-contato button:hover {
+    box-shadow: 0px 0px 8px #808080;
+    transform: scale(1.05);
+}
+
+.menu__mobile, .menu__logo2 {
+    display: none;
+}
+
+/* .menu-desktop nav ul li {
+    display: inline-block;
+} */
+
+/*****************************/
+/*    [3]      Conteúdo
+/*****************************/
+
+.cabecalho {
+    /* width: 100vw;
+    height: 100vh; */
+    
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    max-width: 1700px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.cabecalho .imagem {
+    /* background-color: bisque; */
+
+    /* pra ficar imagem pequena */
+    width: 50vw;
+    height: auto;
+    
+    /* max-width: 70%;
+    height: auto; */
+}
+
+.texto__nome {
+    font-size: 9vw;
+    margin-top: 10vw;
+    margin-left: 9vw;
+}
+
+#texto__frase {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5vw;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+
+
+@media only screen and (max-width: 730px) {
+
+    /* .container__menu {
+        position: relative;
+        z-index: 1;
+        background-color: brown;
+    } */
+
+    .menu {
+        display: none;
+        /* position: relative;
+        z-index: 2;
+        background-color: brown; */
+    }
+
+    .menu__logo2 {
+        display: inline;
+        height: 10px;
+    }
+
+    .menu__mobile {
+        /* z-index: 2;
+        position: relative; */
+        background-color: blue;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* max-width: 1500px; */
+        margin: 0 auto;
+        
+    }
+
+    .menu__logo2 {
+        margin: 10px;
+    }
+}
