@@ -28,7 +28,6 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 600;
-    
     /* background-color: aqua; */
     /* box-shadow: 0px 3px 10px rgba(#0000); */
 }
@@ -39,7 +38,6 @@ header {
     justify-content: space-between;
     max-width: 1500px;
     margin: 0 auto;
-    
     /* flex-wrap: wrap; */
 }
 
@@ -54,7 +52,6 @@ header {
     list-style-type: none;
     text-align: center;
     justify-content: right;
-   
     /* flex-wrap: wrap; */
     /* cursor: pointer; */
 }
@@ -62,6 +59,7 @@ header {
 .nav__list2 li {
     display: flex;
     align-items: center;
+    
 }
 
 .nav__link2  {
@@ -105,29 +103,25 @@ header {
 }
 
 /*****************************/
-/*    [3]      Conteúdo
+/*    [3]   Conteúdo 1
 /*****************************/
 
 .cabecalho {
-    /* width: 100vw;
-    height: 100vh; */
-
     display: flex;
-    /* align-items: center; */
     justify-content: space-evenly;
-    /* justify-content: space-around; */
     max-width: 1700px;
     margin: 0 auto;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    /* width: 100vw;
+    height: 100vh; */
     /* background-color: bisque; */
 }
 
 .cabecalho .imagem {
-    /* background-color: bisque; */
-
     /* pra ficar imagem pequena */
     width: 50vw;
     height: auto;
-    
     /* max-width: 70%;
     height: auto; */
 }
@@ -143,7 +137,52 @@ header {
 #texto__frase {
     font-size: 2vw;
     margin-left: 9vw;
+    /* margin-bottom: 10px; */
 }
+
+#texto__fraseMobile {
+    display: none;
+    justify-content: center;
+}
+
+/*****************************/
+/*    [4]   Conteúdo 2
+/*****************************/
+
+.container__2 {
+    /*background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 1700px;
+    /* margin-top: 70px;
+    margin-bottom: 100px; */
+    padding-bottom: 120px;
+
+}
+
+.container__2 .imagem3{
+    width: 30vw;
+    margin-right: 50px;
+    /* height: auto; */
+}
+
+.container__2 .textos {
+    align-items: center;
+}
+
+.container__2 .textos h2 {
+    /* font-size: 2vw; */
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container__2 .textos p {
+    font-size: 22px;
+    width: 400px;
+}
+
 
 
 
@@ -238,13 +277,35 @@ header {
     }
 
     .cabecalho .imagem {
-        margin-left: 8vh;
+        margin-left: 6vh;
         width: 80vw;
         height: auto;
     }
 
+    #texto__fraseMobile {
+        font-size: 5vw;
+        padding-bottom: 100px;
 
+    }
 
+    .container__2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 
+    .container__2 .imagem3{
+        width: 50vw;
+        margin: 0;
+        
+    }
+
+    .container__2 .textos p{
+        align-items: center;
+        text-align: center;
+        width: 300px;
+
+    }
     
 }
