@@ -118,7 +118,7 @@ header {
     /* background-color: bisque; */
 }
 
-.cabecalho .imagem {
+.cabecalho #imagem {
     /* pra ficar imagem pequena */
     width: 50vw;
     height: auto;
@@ -276,23 +276,24 @@ header {
         display: none;
     }
 
-    .cabecalho .imagem {
-        margin-left: 6vh;
-        width: 80vw;
+    .cabecalho #imagem {
+        width: 500px;
         height: auto;
     }
 
     #texto__fraseMobile {
+        display: flex;
+        text-align: center;
         font-size: 5vw;
         padding-bottom: 100px;
-
     }
 
     .container__2 {
         display: flex;
         align-items: center;
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
+        padding-bottom: 50px;
     }
 
     .container__2 .imagem3{
@@ -305,7 +306,7 @@ header {
         align-items: center;
         text-align: center;
         width: 300px;
-
+        padding-bottom: 80px;
     }
     
 }
