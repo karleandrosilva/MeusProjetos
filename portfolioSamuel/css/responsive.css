@@ -1,0 +1,124 @@
+@media only screen and (max-width: 750px) {
+    .container__menu {
+        display: none;
+    }
+
+    .cabecalho {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav__logo {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+
+        width: 70px;
+    }
+
+    .container__nav {
+        padding: 1.rem 4rem;
+        height: 70px;
+    }
+
+    .nav__list2 {
+        display: none;
+    }
+
+    .nav__contato {
+        display: none;
+    }
+
+    .nav__icon {
+        display: block;
+        padding-right: 20px;
+        
+    }
+
+    .nav__icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .nav__mobile ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-left: 0;
+    }
+
+    .nav__mobile .nav__link {
+        color: #000;
+        text-decoration: none;
+    }
+
+
+    .nav__mobile .nav__item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .nav__link:hover {
+        color: #808080;
+        font-size: 22px;
+        transform: scale(1.05);
+    }
+
+    .nav__mobile .nav__contato {
+        display: block;
+        text-align: center;
+    }
+
+    .open {
+        display: block;
+    }
+    
+    .texto__nome {
+        font-size: 20vw;
+        margin-top: 1vw;
+        margin-left: 15vw;
+        margin-bottom: 0px;
+        padding-top: 50px;
+    }
+
+    #texto__frase {
+        display: none;
+    }
+
+    .cabecalho #imagem {
+        width: 500px;
+        height: auto;
+    }
+
+    #texto__fraseMobile {
+        display: flex;
+        text-align: center;
+        font-size: 5vw;
+        padding-bottom: 100px;
+    }
+
+    .container__2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .container__2 .imagem3{
+        width: 50vw;
+        margin: 0;
+        
+    }
+
+    .container__2 .textos p{
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        padding-bottom: 80px;
+    }
+    
+}

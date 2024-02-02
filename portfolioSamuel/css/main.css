@@ -1,0 +1,35 @@
+/* [4]   Conteúdo 2 */
+
+.container__2 {
+    /*background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 1700px;
+    /* margin-top: 70px;
+    margin-bottom: 100px; */
+    padding-bottom: 120px;
+
+}
+
+.container__2 .imagem3{
+    width: 30vw;
+    margin-right: 50px;
+    /* height: auto; */
+}
+
+.container__2 .textos {
+    align-items: center;
+}
+
+.container__2 .textos h2 {
+    /* font-size: 2vw; */
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container__2 .textos p {
+    font-size: 22px;
+    width: 400px;
+}
