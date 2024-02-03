@@ -109,16 +109,36 @@
     }
 
     .container__2 .imagem3{
-        width: 50vw;
+        width: 60vw;
         margin: 0;
-        
+    }
+
+    .container__2 .textos h2 {
+        font-size: 30px;
     }
 
     .container__2 .textos p{
         align-items: center;
         text-align: center;
         width: 300px;
-        padding-bottom: 80px;
+        padding-bottom: 0px;
+    }
+
+    #titulo__2 {
+        font-size: 30px;
+    }
+
+    .fotos__3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 1700px;
+        padding-bottom: 120px;
+    }
+
+    .fotos__3 img {
+        height: 250px;
+        padding-top: 13px;
     }
     
 }

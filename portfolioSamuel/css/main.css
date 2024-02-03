@@ -1,4 +1,4 @@
-/* [4]   Conteúdo 2 */
+/* [4]   Conteúdo 2 - Quem sou eu*/
 
 .container__2 {
     /*background-color: aqua; */
@@ -25,11 +25,40 @@
 
 .container__2 .textos h2 {
     /* font-size: 2vw; */
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .container__2 .textos p {
     font-size: 22px;
     width: 400px;
 }
+
+
+/* [5]   Conteúdo 3 - Meus Trabalhos */
+
+#titulo__2 {
+    font-size: 60px;
+    /* margin-left: 12vw; */
+    text-align: center;
+    font-weight: 500;
+}
+
+.fotos__3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1700px;
+    padding-bottom: 50px;
+}
+
+.fotos__3 img {
+    height: 350px;
+
+}
+
+/* .fotos__3 img:hover {
+    height: 320px;
+    transform: scale(1.05);
+} */
