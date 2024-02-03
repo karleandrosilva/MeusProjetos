@@ -159,7 +159,6 @@ header .btn-contato button:hover {
     opacity: 0;
 }
 
-
 .arrow {
     border: solid #fff;
     border-width: 0 6px 6px 0;
@@ -321,3 +320,44 @@ header .btn-contato button:hover {
     
 
 }
+
+
+
+
+
+/* <div class="casousel-item item-4">
+                    <a href="#item-6" class="prev2 arrow2"></a>
+                    <a href="#item-5" class="next2 arrow2"></a>
+                </div>
+                <div class="casousel-item item-5">
+                    <a href="#item-4" class="prev2 arrow2"></a>
+                    <a href="#item-6" class="next2 arrow2"></a>
+                </div>
+                <div class="casousel-item item-6">
+                    <a href="#item-5" class="prev2 arrow2"></a>
+                    <a href="#item-4" class="next2 arrow2"></a>
+                </div>
+
+
+
+
+                .arrow2 {
+                    border: solid #fff;
+                    border-width: 0 6px 6px 0;
+                    display: inline-block;
+                    padding: 15px;
+                }
+                
+                .prev2 {
+                    top: 50%;
+                    left: 20px;
+                    position: absolute;
+                    transform: translateY(-50%) rotate(135deg);
+                }
+                
+                .next2 {
+                    top: 50%;
+                    right: 20px;
+                    position: absolute;
+                    transform: translateY(-50%) rotate(-45deg);
+                } */

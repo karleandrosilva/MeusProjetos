@@ -105,7 +105,7 @@
         align-items: center;
         flex-direction: column;
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
 
     .container__2 .imagem3{
@@ -133,12 +133,31 @@
         align-items: center;
         flex-direction: column;
         max-width: 1700px;
-        padding-bottom: 120px;
+        padding-bottom: 50px;
     }
 
     .fotos__3 img {
         height: 250px;
         padding-top: 13px;
     }
+    
+    h3 {
+        margin-top: 0;
+        padding-top: 0;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .carousel {
+        width: 280px;
+        height: 280px;
+    }
+
+    .arrow {
+        border-width: 0 5px 5px 0;
+        padding: 11px;
+    }
+
     
 }
