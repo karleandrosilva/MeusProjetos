@@ -87,7 +87,7 @@ h3 {
     position: relative;
 }
 
-.cousel-item {
+.carousel-item {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -151,7 +151,7 @@ h3 {
 
 
 .item-4 {
-    z-index: 5;
+    z-index: 2;
     opacity: 1;
     background: url("../assets/img/ensaiofeminino/ensaio-femino1.jpg");
     background-size: cover;
@@ -173,6 +173,6 @@ h3 {
 
 #item-5:target~.item-5,
 #item-6:target~.item-6 {
-    z-index: 6;
+    z-index: 3;
     opacity: 1;
 }
