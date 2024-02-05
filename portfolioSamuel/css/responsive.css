@@ -13,8 +13,8 @@
         margin: 10px;
         display: flex;
         align-items: center;
-
-        width: 70px;
+        margin-left: 20px;
+        width: 100px;
     }
 
     .container__nav {
