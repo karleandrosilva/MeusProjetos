@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0; 
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* font-weight: 600; */
+}
+
+main {
+    height: 200px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(24, 15, 120);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+
+.logo {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.frase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-doe button {
+    margin: 20px;
+    background-color: yellow;
+    
+}
+
+
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
