@@ -65,6 +65,7 @@ footer {
 
 .list > li {
     padding: 20px;
+    padding-bottom: 0px;
     list-style: none;
 }
 
@@ -75,7 +76,9 @@ a {
 
 .redes-sociais > a > img {
     height: 20px;
-    margin: 15px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
