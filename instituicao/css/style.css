@@ -12,7 +12,7 @@ main {
 
 footer {
     color: white;
-    background-color: rgb(24, 15, 120);
+    background-color: #000080;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -48,8 +48,10 @@ footer {
     border: 0;
     font-size: 13px;
     font-weight: bold;
-    background-color: yellow;
-    color: rgb(24, 15, 120);
+    background-color: #FFFF00
+    ;
+    color: #000080;
+    cursor: pointer;
 }
 
 .list {
