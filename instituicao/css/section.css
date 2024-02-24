@@ -1,3 +1,5 @@
+
+
 section {
     padding: 20px;
     margin: 10px;
@@ -7,30 +9,30 @@ section {
     height: 100vh;
 }
 
-.flex-container {
+/* .flex-container {
     display: flex;
     flex-direction: row-reverse; /* Inverter a direção do flexbox para as imagens ficarem do lado direito */
-    align-items: center; /* Alinhar os itens verticalmente */
-    background-color: aqua;
-}
+    /* align-items: center; Alinhar os itens verticalmente */
+    /* background-color: aqua; */
+} 
 
-.section-content {
+/* .section-content {
     color: rgb(2, 2, 60);
     /* width: 300px; */
     
     
-}
+} 
 
-.section-wrapper {
+/* .section-wrapper {
     flex: 1; /* Ocupar o espaço restante na seção */
-}
+} 
 
 
 
 /* Adicionando filtro drop-shadow nas imagens */
-.flex-container img:nth-of-type(1),
+/* .flex-container img:nth-of-type(1),
 .flex-container img:nth-of-type(2),
 .flex-container img:nth-of-type(3),
 .flex-container img:nth-of-type(4) {
     filter: drop-shadow(2px 2px 4px gray);
-}
+} */
