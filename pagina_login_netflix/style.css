@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; /*Isso significa que a imagem de fundo será preechida*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {  /* pseudo-classe para criar um elemento antes do conteúdo real do corpo */
+    content: '';  /*conteúdo vazio*/
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    /*Define a largura e altura do pseudo-elemento como 100%, cobrindo assim toda a largura e altura da janela do navegador ou do contêiner pai.*/
+    position: absolute; /*Define a posição do pseudo-elemento como absoluta. Isso significa que ele será posicionado em relação ao seu ancestral mais próximo.*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    /*top, bottom, left, right: 0 = usadas para esticar o pseudo-elemento sobre toda a área do elemento <body>.*/
+}
+
+.logo img {
+    height: 55px;
+    width: 160px;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 10; /* Este elemento estará acima de outros elementos com z-index menor */
+}
+
+main {
+    padding: 60px;
+    z-index: 90; 
+    position: relative;
+    max-width: 470px;
+    height: 550px;
+    margin-left: 50%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+main h1 {
+    color: white;
+    margin-top: 0;
+}
+
+main input {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+main input:hover {
+    background-color: #444;
+}
+
+main button {
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: #e50914;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+main button:hover {
+    background-color: #fa1621;
+    cursor: pointer;
+}
+
+.support {
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.support input {
+    width: 15px;
+    height: 15px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember span {
+    margin-right: 5px;
+    height: 25px;
+}
+
+.help a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.help a:hover {
+    text-decoration: underline;
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+}
+
+.facebook span {
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.facebook span a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.sign_up {
+    color: #737373;
+    font-size: 16px;
+}
+
+.sign_up a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.sign_up a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    color: #737373;
+    font-size: 13px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #0071eb;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        padding: 30px;
+        z-index: 90; 
+        position: relative;
+        width: 300px;
+        height: 480px;
+        margin-left: 50%;
+        background-color: rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+        box-sizing: border-box;
+        transform: translateX(-50%);
+    }
+
+    
+}

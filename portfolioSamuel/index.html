@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Vitor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <nav class="container__nav"> <!-- nav bar -->
+            
+            <div class="nav__logo">  <!-- logo -->
+                <img src="assets/img/logo-sam.png" alt="logo" width="100px">
+            </div>
+
+            <nav class="nav__list2">
+                <ul>
+                    <li class="nav__item2"><a href="#inicio" class="nav__link2">Inicio</a></li>
+                    <li class="nav__item2"><a href="#quem-sou-eu" class="nav__link2">Quem sou eu</a></li>
+                    <li class="nav__item2"><a href="#meus-trabalhos" class="nav__link2">Meus trabalhos</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav__contato">  <!-- login-button -->
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+            <div class="nav__icon"> <!-- mobile-menu-icon -->
+                <button onclick="menuShow()"><img class="icon" src="assets/icons/list.svg" alt="" width="30px"></button>
+            </div>
+        
+        </nav>
+
+        <div class="nav__mobile"> <!-- mobile-menu -->
+            <ul>
+                <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="#quem-sou-eu" class="nav__link">Quem sou eu</a></li>
+                <li class="nav__item"><a href="#meus-trabalhos" class="nav__link">Meus trabalhos</a></li>
+            </ul>
+
+            <div class="nav__contato"> <!-- login-button  -->
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <script src="assets/scripts/script.js"></script>
+
+    <main>
+        
+        <section class="cabecalho" id="inicio">
+            <div class="texto">
+                <p class="texto__nome">Samuel<br>
+                    Vitor</p>
+    
+                <p id="texto__frase">FOTOGRAFANDO PESSOAS E<br>HISTÓRIAS REAIS</p>
+            </div>
+            
+            <img id="imagem" src="assets/img/saam-white.png" alt="Foto Samuel Vitor" height="800vw">
+
+            <p id="texto__fraseMobile">FOTOGRAFANDO PESSOAS E<br>HISTÓRIAS REAIS</p>
+        </section>
+
+        <section class="container__2" id="quem-sou-eu">
+            <div class="imagem3">
+                <img src="assets/img/foto-saam2.png" alt="foto Samuel Vitor">
+            </div>
+            <div class="textos">
+                <h2>Quem sou eu</h2>
+                <p id="texto">Fotógrafo e empreendedor desde os 16 anos. Iniciei na fotografia não apenas como um trabalho, mas sim, como uma paixão desde quando criança, de poder eternizar em forma de fotos, histórias e eventos marcantes na vida de muitas pessoas.</p>
+            </div>
+        </section>
+
+        <section class="container__3" id="meus-trabalhos">
+            <h2 id="titulo__2">Meus trabalhos:</h2>
+
+            <div class="fotos__3">
+                <div>
+                    <img src="assets/img/posicionamento.jpg" alt="">
+                    <p>Posicionamento de imagem</p>
+                </div>
+    
+                <div>
+                    <img src="assets/img/ensaio-casal.jpg" alt="">
+                    <p>Pré-Wedding/Ensaio de casal</p>
+                </div>
+    
+                <div>
+                    <img src="assets/img/infatil.jpg" alt="">
+                    <p>Ensaio Infatil</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <div>
+            <h3>Chá revelação</h3>
+        </div>
+
+        <section class="container__4">
+            <div class="carousel">
+                <span id="item-1"></span>
+                <span id="item-2"></span>
+                <span id="item-3"></span>
+       
+                <div class="carousel-item item-1">
+                    <a href="#item-3" class="prev arrow"></a>
+                    <a href="#item-2" class="next arrow"></a>
+                </div>
+                <div class="carousel-item item-2">
+                    <a href="#item-1" class="prev arrow"></a>
+                    <a href="#item-3" class="next arrow"></a>
+                </div>
+                <div class="carousel-item item-3">
+                    <a href="#item-2" class="prev arrow"></a>
+                    <a href="#item-1" class="next arrow"></a>
+                </div>
+            </div>
+        </section>
+
+        <div>
+            <h3>Ensaio feminino</h3>
+        </div>
+
+        <section class="container__4">
+            <div class="carousel">
+                <span id="item-4"></span>
+                <span id="item-5"></span>
+                <span id="item-6"></span>
+       
+                <div class="carousel-item item-4">
+                    <a href="#item-5" class="prev arrow"></a>
+                    <a href="#item-6" class="next arrow"></a>
+                </div>
+                <div class="carousel-item item-5">
+                    <a href="#item-6" class="prev arrow"></a>
+                    <a href="#item-4" class="next arrow"></a>
+                </div>
+                <div class="carousel-item item-6">
+                    <a href="#item-4" class="prev arrow"></a>
+                    <a href="#item-5" class="next arrow"></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

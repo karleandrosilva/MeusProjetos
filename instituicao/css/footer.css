@@ -1,0 +1,90 @@
+footer {
+    color: white;
+    background-color: #000080;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.logo > h3 {
+    font-size: 35px;
+}
+
+.logo > p {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #ffffffc6;
+}
+
+.botao-doe {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.botao-doe button {
+    width: 85px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #FFFF00
+    ;
+    color: #000080;
+    cursor: pointer;
+}
+
+.list {
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.list > li {
+    padding: 20px;
+    padding-bottom: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.redes-sociais > a > img {
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .list {
+        display: inline;
+        align-items: center;
+    }
+
+    .list > li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .redes-sociais > a > img {
+        height: 20px;
+        margin-left: 30px;
+    }
+    
+}

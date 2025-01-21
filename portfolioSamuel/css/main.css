@@ -1,0 +1,178 @@
+/* [4]   Conteúdo 2 - Quem sou eu*/
+
+.container__2 {
+    /*background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 1700px;
+    /* margin-top: 70px;
+    margin-bottom: 100px; */
+    padding-bottom: 120px;
+
+}
+
+.container__2 .imagem3{
+    width: 30vw;
+    margin-right: 50px;
+    /* height: auto; */
+}
+
+.container__2 .textos {
+    align-items: center;
+}
+
+.container__2 .textos h2 {
+    /* font-size: 2vw; */
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.container__2 .textos p {
+    font-size: 22px;
+    width: 400px;
+}
+
+
+/* [5]   Conteúdo 3 - Meus Trabalhos */
+
+#titulo__2 {
+    font-size: 60px;
+    /* margin-left: 12vw; */
+    text-align: center;
+    font-weight: 500;
+}
+
+.fotos__3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1700px;
+    padding-bottom: 50px;
+}
+
+.fotos__3 img {
+    height: 350px;
+}
+
+/* .fotos__3 img:hover {
+    height: 320px;
+    transform: scale(1.05);
+} */
+
+/* [6]   Conteúdo 4 - Carrossel */
+
+h3 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+
+.container__4 {
+    /* background-color: blue; */
+    /* height: 1000px; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.carousel {
+    max-width: 1700px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+}
+
+.arrow {
+    border: solid #fff;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 15px;
+}
+
+.prev {
+    top: 50%;
+    left: 20px;
+    position: absolute;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.next {
+    top: 50%;
+    right: 20px;
+    position: absolute;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url("../assets/img/chadebebe/imagem-chadebebe3.jpg");
+    background-size: cover;
+}
+
+.item-2 {
+    background: url("../assets/img/chadebebe/imagem-chadebebe2.jpg");
+    background-size: cover;
+}
+
+.item-3 {
+    background: url("../assets/img/chadebebe/imagem-chadebebe1.jpg");
+    background-size: cover;
+}
+
+*:target~.item-1 {
+    opacity: 1;
+}
+
+#item-2:target~.item-2,
+#item-3:target~.item-3 {
+    z-index: 3;
+    opacity: 1;
+}
+
+
+.item-4 {
+    z-index: 2;
+    opacity: 1;
+    background: url("../assets/img/ensaiofeminino/ensaio-femino1.jpg");
+    background-size: cover;
+}
+
+.item-5 {
+    background: url("../assets/img/ensaiofeminino/ensaio-femino2.jpg");
+    background-size: cover;
+}
+
+.item-6 {
+    background: url("../assets/img/ensaiofeminino/ensaio-femino3.jpg");
+    background-size: cover;
+}
+
+*:target~.item-4 {
+    opacity: 1;
+}
+
+#item-5:target~.item-5,
+#item-6:target~.item-6 {
+    z-index: 3;
+    opacity: 1;
+}
